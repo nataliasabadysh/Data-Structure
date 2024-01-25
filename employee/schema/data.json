@@ -1,0 +1,57 @@
+{
+    "Department": {
+      "id": "string",
+      "dept_name": "string",
+      "department_employees": [
+        {
+          "employee_id": "bigint",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ],
+      "department_managers": [
+        {
+          "employee_id": "bigint",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ]
+    },
+    "Employee": {
+      "id": "bigint",
+      "birth_date": "date",
+      "first_name": "string",
+      "last_name": "string",
+      "gender": "string",
+      "hire_date": "date",
+      "titles": [
+        {
+          "title": "string",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ],
+      "salaries": [
+        {
+          "amount": "bigint",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ],
+      "department_employees": [
+        {
+          "department_id": "string",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ],
+      "department_managers": [
+        {
+          "department_id": "string",
+          "from_date": "date",
+          "to_date": "date"
+        }
+      ]
+    }
+  }
+  
